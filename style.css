@@ -1,0 +1,47 @@
+h1 {
+    color: rgba(21, 121, 202, 0.959); 
+    text-align:center 
+}
+div {
+    margin: auto;
+    background-color: rgb(201, 198, 26);
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    margin-top: 5%;
+    text-align: center;
+    padding: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    border: 3px solid;
+}
+table {
+    border: 2px solid rgb(148, 35, 35);
+    border-collapse: collapse;
+    background-color: beige;
+    margin-top: 5px;
+    align-items: center;
+}
+th, td {
+    border: 2px solid black;
+    padding: 5px;
+}
+#foo, #bar {
+    color: brown;
+}
+.baz {
+    color: blueviolet;
+}
+.table {
+    background: rgb(211, 156, 156);
+    -webkit-text-fill-color: rgb(253, 254, 255);
+    align-content: center;
+    justify-content: center;
+    
+}
+.table2 {
+    text-align: center;
+    ;
+    
+}
