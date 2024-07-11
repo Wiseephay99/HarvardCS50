@@ -14,3 +14,8 @@ How to add files
     git reset
         git reset --hard <commit>
         git reset --hard origin/master
+
+    git branch //checks which branch one is on.
+    git checkout -b <newbranch> eg git checkout -b style        Creating a new branch
+    git checkout.... moves from one branch to another
+    git merge style
