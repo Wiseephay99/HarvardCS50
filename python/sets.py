@@ -16,3 +16,5 @@ print(s)
 #Remove elemnts from a set
 s.remove(2)
 print(s)
+# The length of set S
+print(f'The set has {len(s)} elements.')
