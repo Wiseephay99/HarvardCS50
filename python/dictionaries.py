@@ -7,8 +7,12 @@ print()
 houses = {'James': 'Griffindor', 'Wise': 'Slitherin', "Samuel": 'Palatial'}
 
 print(houses)
-houses['Magdalene'] = 'Slitherin'
+houses['Magdalene'] = 'Slitherin' 
+houses['Hermione'] = 'Gryffindor'
+print()
+print(houses)
 print(houses['Magdalene'])
+print()
 
 for i in houses:
     print(i)
