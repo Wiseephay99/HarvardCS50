@@ -5,3 +5,4 @@ def day_to_units(num_of_days):
 
 print()
 user_days_input = int(input('Hey user, enter a number of days and I will convert it to Hours!\n'))
+#New Line character is represented as:  \n
