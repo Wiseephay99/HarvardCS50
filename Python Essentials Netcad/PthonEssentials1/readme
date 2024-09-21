@@ -1,0 +1,166 @@
+'''
+    Python Essentials 1! This course has been designed and developed by the 
+    OpenEDG Python Institute in partnership with the Cisco Networking Academy.
+    The course is divided into four modules:
+
+    Module 1
+    Introduction to Python and computer programming;
+    Module 2
+    Data types, variables, basic input-output operations, and basic operators;
+    Module 3
+    Boolean values, conditional execution, loops, lists and list processing, logical and bitwise operations;
+    Module 4
+    Functions, tuples, dictionaries, exceptions, and data processing
+    
+    aspiring programmers and learners interested in learning programming for fun
+    and for job-related tasks;
+    learners looking to gain fundamental skills and knowledge for an entry-level 
+    job role as a software developer, data analyst, or tester;
+    industry professionals wishing to explore technologies that are connected 
+    with Python, or that utilize it as a foundation;
+    team leaders, product managers, and project managers who want to understand 
+    the terminology and processes in the software development cycle to more 
+    effectively manage and communicate with production and development teams.
+    
+'''
+# OPENEDG - General Purpose Programming
+# Entry - PCEP-30-0x - Certified Entry Level Python Programmer
+# Associate - PCAP-31-XX - Certified Associate in Python Programming
+# Proffessional - PCPP-32-1xx - Certified Programmer in Python Programming Level 1
+#              - PCPP-32-2xx - Certified Programmer in Python Programming Level 2
+
+'''
+    PCEP – Certified Entry-Level Python Programmer certification is an 
+    interim step to the PCAP – Certified Associate in Python Programming 
+    certification, and the starting point to launch a career in software 
+    development, Python programming, and related technologies.
+    Visit: - 
+    www.pythoninstitute.org.
+'''
+# 1.1.2 Natural languages vs. programming languages
+'''    
+A language is a means (and a tool) for expressing and recording thoughts.
+body language; it's possible to express your deepest feelings very precisely without saying a word.
+Computers have their own language, too, called machine language, 
+which is very rudimentary. it responds only to a predetermined set of known commands.
+A complete set of known commands is called an instruction list, sometimes 
+abbreviated to IL.
+
+''' 
+# Note: machine languages are developed by humans.  while human languages are developed by humans
+
+# 1.1.3 What makes a language?
+# We can say that each language (machine or natural, it doesn't matter) consists of the following element
+'''
+an alphabet => a set of symbols used to build words of a certain language (e.g., the Latin alphabet for 
+                English, the Cyrillic alphabet for Russian, Kanji for Japanese, and so on)
+a lexis => (aka a dictionary) a set of words the language offers its users (e.g., the word "computer" 
+                comes from the English language dictionary, while "cmoptrue" doesn't; the word "chat" 
+                is present both in English and French dictionaries, but their meanings are different)
+a syntax => a set of rules (formal or informal, written or felt intuitively) used to determine if 
+                a certain string of words forms a valid sentence 
+                (e.g., "I am a python" is a syntactically correct phrase, while "I a python am" isn't)
+sematics => a set of rules determining if a certain phrase makes sense (e.g., "I ate a doughnut" 
+                makes sense, but "A doughnut ate me" doesn't)'''
+
+# 1.1.4 Machine language vs. high-level language
+'''
+    The IL is, in fact, the alphabet of a machine language. This is the simplest and most primary set of symbols we can use to give commands to a computer.
+    It's the computer's mother tongue.
+    We need a language in which humans can write their programs and a language that computers may use to execute the programs, one that is far more complex
+    than machine language and yet far simpler than natural language.
+
+    Such languages are often called high-level programming languages. They are at least somewhat similar 
+    to natural ones in that they use symbols, words and conventions readable to humans. These languages enable humans to express commands to computers that are much more complex than those offered by ILs.
+
+    A program written in a high-level programming language is called a source code (in contrast to the 
+    machine code executed by computers). Similarly, the file containing the source code is called the 
+    source file.
+    
+'''
+
+# 1.1.5 Compilation vs. Interpretation
+'''
+    Computer programming is the act of composing the selected programming language's elements in the order 
+    that will cause the desired effect. The effect could be different in every specific case – it's up to 
+    the programmer's imagination, knowledge and experience.
+
+    Of course, such a composition has to be correct in many senses:
+
+    alphabetically – a program needs to be written in a recognizable script, such as Roman, Cyrillic, etc.
+    lexically – each programming language has its dictionary and you need to master it; thankfully,
+    it's much simpler and smaller than the dictionary of any natural language;
+    syntactically – each language has its rules and they must be obeyed;
+    semantically – the program has to make sense.
+    Unfortunately, a programmer can also make mistakes with each of the above four senses.
+    Each of them can cause the program to become completely useless.
+
+    Let's assume that you've successfully written a program. How do we persuade the computer
+
+    to execute it? You have to render your program into machine language. Luckily, the translation
+    can be done by a computer itself, making the whole process fast and efficient.
+
+    There are two different ways of transforming a program from a high-level programming language
+    into machine language:  
+    
+    Compilation - the source program is translated once
+    (however, this act must be repeated each time you
+    modify the source code) by getting a file (e.g., an exe
+    file if the code is intended to be run under MS Windows)
+    containing the machine code. Now you can distribute
+    the file worldwide; the program that performs this
+    translation is called a compiler or translator.
+    
+    Interpretation - you (or any user of the code can
+    translate the source program each time it has to be run.
+    The program performing this kind of transformation is
+    called an interpreter, as it interprets the code every
+    time it is intended to be executed. It also means that you
+    cannot just distribute the source code as-is, because
+    the end-user also needs the interpreter to execute it.
+
+'''
+# 1.2.1 Python – a tool, not a reptile
+'''
+What is Python?
+Python is a widely-used, interpreted, object-oriented, and high-level programming language with 
+dynamic semantics, used for general-purpose programming.
+
+And while you may know the python as a large snake, the name of the Python programming language 
+comes from an old BBC television comedy sketch series called Monty Python's Flying Circus.
+'''
+# 1.2.2 Who created Python?
+'''Python was created by Guido van Rossum, born in 1956 in Haarlem, the Netherlands. '''
+# 1.2.4 What makes Python so special?
+''' It's easy to learn
+    it's easy to teach
+    It's easy to use
+    It's easy to understand
+    It's easy to obtain'''
+# 1.2.5 Python rivals?
+'''Python has two direct competitors, with comparable properties and predispositions. These are:
+
+Perl – a scripting language originally authored by Larry Wall;
+Ruby – a scripting language originally authored by Yukihiro Matsumoto.'''
+
+# 1.2.6 Where can we see Python in action?
+'''It's used extensively to implement complex Internet services like: 
+search engines, cloud storage and tools, social media and so on.
+Used by Testers to carry out repeatable test procedures.
+'''
+# 1.2.7 Why not Python?
+'''    Despite Python's growing popularity, there are still some niches where Python is absent, 
+    or is rarely seen:
+
+low-level programming (sometimes called "close to metal" programming): if you want to implement an extremely
+effective driver or graphical engine, you wouldn't use Python;
+applications for mobile devices: although this territory is still waiting to be conquered by Python, 
+it will most likely happen someday.
+'''
+# 1.3 Section 3 – Downloading and Installing Python
+'''This section is optional, as throughout the course you will be able to launch, test, 
+and experiment with all your Python programs in Edube Interactive TM, the programming environment 
+that we have integrated with the learning platform and these study resources. '''
+
+# IDLE is an acronym: Integrated Development and Learning Environment.
+
