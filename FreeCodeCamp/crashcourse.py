@@ -146,7 +146,7 @@ list6 = [['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h', 'i']]
 print(list6)
 list7 = [1, [2,3,4], [5,6,7], [3.4]]
 print(list7)
-# We can access items in a list using thier corresponding index
+# We can access items in a list using their corresponding index
 print()
 my_list = [[1, 2, 3], [4, 5, 6]]
 print(my_list[0])
@@ -165,3 +165,79 @@ board = [
 
 print(board)
 print(f'\n')
+# Length of a List
+my_list2 = [1,2,3,4,5]
+print(len(my_list2))
+#  Update a Value in a List
+letters = ['a','b','c','d','e','f']
+#  Add a Value to a List
+new_list = [1,2,3,4,5]
+new_list.append(5)
+print(new_list)
+#  Remove a Value from a List
+new_list.remove(3)
+print(new_list)
+
+letters[0] = "e"
+print(letters[0])
+# List Indexing
+print(f'=============List Indexing=====================')
+alphabet = ['a','b','c','d','e','f']
+print(alphabet[0])
+print(alphabet[1])
+print(alphabet[2])
+print(alphabet[3])
+print(alphabet[4])
+print(alphabet[5])
+print()
+# List Slicing
+print(f'=============List Slicing=====================')
+test_list = ["a", "b", "c", "d", "e", "f", "g", "h", "i"]
+print(test_list[2:6:2])
+print(test_list[2:8])
+print(test_list[1:10])
+print(test_list[4:8:2])
+print(test_list[::1])
+print(test_list[::-2])
+print(test_list[8:1:-1])
+print()
+print(f'=============List Methods=====================')
+print()
+crazy_list = [1,2,3,4]
+print(crazy_list)
+
+crazy_list.append(5)
+print(crazy_list)
+
+crazy_list.extend([6,7,8,9])
+print(crazy_list)
+
+crazy_list.insert(2,15)
+print(crazy_list)
+
+crazy_list.remove(2)
+print(crazy_list)
+
+crazy_list.pop()
+print(crazy_list)
+
+crazy_list.index(6)
+print(crazy_list)
+
+crazy_list.sort()
+print(crazy_list)
+
+crazy_list.reverse()
+print(crazy_list)
+
+crazy_list.clear()
+print(crazy_list)
+#  https://docs.python.org/3/tutorial/datastructures.html#more-on-lists
+print()
+
+print()
+print(f'======================================================')
+print()
+print(f'===================Booleans in Python==================')
+print(type(True))
+print(type(False))

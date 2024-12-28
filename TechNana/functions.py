@@ -13,7 +13,7 @@ def scope_check(num_days):
     # print(num_of_days) 
     # This is a scope created and thus can be accessed globally
     print(num_days) 
-    # You can created a varibale inside a function
+    # You can created a varible inside a function
     my_var = 'TechWithNana'
     print(my_var)
     
